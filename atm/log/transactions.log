@@ -1,0 +1,20 @@
+2017-02-19 20:10:04,163 - transaction - INFO - account:1235   action:repay    amount:10.0   interest:0.0
+2017-02-19 20:10:27,574 - transaction - INFO - account:1235   action:withdraw    amount:30.0   interest:1.5
+2017-02-19 20:11:25,538 - transaction - INFO - account:1235   action:transfer    amount:100.0   interest:5.0
+2017-02-19 20:15:11,394 - transaction - INFO - account:1234   action:transfer    amount:100.0   interest:5.0
+2017-02-19 20:15:11,396 - transaction - INFO - account:1235   action:transfer    amount:100.0   interest:0.0
+2017-02-19 20:18:59,882 - transaction - INFO - account:1234   action:transfer    amount:100.0   interest:5.0
+2017-02-19 20:18:59,883 - transaction - DEBUG - account:1235   action:transfer    amount:100.0   interest:0.0
+2017-02-19 20:21:56,899 - transaction - INFO - account:1234   action:transfer    amount:100.0   interest:5.0
+2017-02-19 20:21:56,900 - transaction - DEBUG - account:1235   action:transfer_receive    amount:100.0   interest:0.0
+2017-02-21 16:33:09,945 - transaction - INFO - account:1234   action:withdraw    amount:10.0   interest:0.5   new_balance:780.9499999999998
+2017-02-21 16:33:34,158 - transaction - DEBUG - account:1235   action:consume    amount:999.0   interest:0.0   new_balance:13195.5
+2017-02-21 16:35:55,945 - transaction - DEBUG - account:1235   action:consume    amount:999.0   interest:0.0   new_balance:12196.5
+2017-02-21 16:36:57,422 - transaction - DEBUG - account:1235   action:consume    amount:31.0   interest:0.0   new_balance:12165.5
+2017-02-21 16:39:33,249 - transaction - DEBUG - account:1235   action:consume    amount:31.0   interest:0.0   new_balance:12134.5
+2017-02-21 16:41:14,735 - transaction - DEBUG - account:1235   action:consume    amount:999.0   interest:0.0   new_balance:11135.5
+2017-02-21 16:49:31,479 - transaction - DEBUG - account:1235   action:consume    amount:999.0   interest:0.0   new_balance:10136.5
+2017-02-21 16:50:28,945 - transaction - DEBUG - account:1234   action:consume    amount:31.0   interest:0.0   new_balance:749.9499999999998
+2017-02-21 17:13:59,492 - transaction - INFO - user:1234   goods:coffee   total_price:31   account:1234   status:0
+2017-02-21 17:16:09,700 - transaction - INFO - user:1234   goods:coffee,coffee   total_price:62   account:1234   status:0
+2017-02-21 18:01:19,936 - transaction - INFO - user:1234   goods:bike   total_price:999   account:1235   status:0
